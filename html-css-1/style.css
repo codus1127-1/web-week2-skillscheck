@@ -1,0 +1,92 @@
+body {
+    margin: none;
+    padding: none;
+}
+header {
+    width: 98vw;
+    height: 80px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    margin-left: 20px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+.hero {
+    width: 98vw;
+    height: 300px;
+    background-color: rgb(41, 41, 41);
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.squarecontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.roundedsquare {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(115, 250, 209);
+    margin: 40px;
+    border-radius: 10%;
+}
+
+.rectanglecontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rectangle {
+    width: 680px;
+    height: 400px;
+    background: rgb(241, 186, 46);
+}
+
+.bottomcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.textbox {
+    width: 480px;
+    height: 400px;  
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+img {
+    width: 480px;
+    height: 350px;
+}
+
+.footer {
+    width: 98vw;
+    height: 150px;
+    background-color: rgb(48, 48, 77);
+}
+
